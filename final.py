@@ -15,14 +15,14 @@ from watson_developer_cloud import ToneAnalyzerV3
 import ast
 tone_analyzer = ToneAnalyzerV3(
   url= "https://gateway.watsonplatform.net/tone-analyzer/api",
-  username= "84584065-dde0-4ad0-a36f-5799e93790d0",
-  password= "8C65B8DEDdLf",
+  username= "username",
+  password= "passw0rd",
   version='2016-02-11'
 )
 text_to_speech = TextToSpeechV1(
     url= "https://stream.watsonplatform.net/text-to-speech/api",
-    username='d80f7929-9fef-4ba7-adf8-866d258c3091',
-    password='22wuOzUt6ADm',
+    username='username',
+    password='passw0rd',
     x_watson_learning_opt_out=True)
 intro1=["Hi! how are you? ", "Hey. How are you doing? ", "What's up? "]
 intro2=["My name is Tara, your friendly digital guidance counseler. I'm here to help. ", "They call me Tara. I'm the guidance counseler here! "]
@@ -32,8 +32,8 @@ intro5=[" degrees Celsius!"]
 
 url = "https://api.kairos.com/v2/media"
 headers = {
-    'app_id': '600adb2b',
-    'app_key': 'b4032376143c3d42907c944d6cc64fa6'
+    'app_id': 'app_id',
+    'app_key': 'app_key'
     }
 pygame.init()
 pygame.camera.init()
